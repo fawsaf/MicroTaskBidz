@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+  top: 0;
+  height: 80vh;
+  background-image: url("https://i.ibb.co/bd0y888/Bitmap.png");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 100px;
+}
+
+.design {
+  background-color: transparent;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #121111;
+}
+
+.design h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.design p {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}

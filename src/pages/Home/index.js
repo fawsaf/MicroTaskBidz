@@ -1,9 +1,12 @@
 import React from "react";
-
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 const Home = () => {
   return (
-    <div>
-      <h1 className="my-6 text-center text-3xl font-bold">Welcome to React</h1>
+    <div style={{ position: "absolute", top: "0", width: "100%" }}>
+      <Header />
+      <body></body>
+      <Footer />
     </div>
   );
 };
